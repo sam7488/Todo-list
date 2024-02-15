@@ -6,7 +6,9 @@
   </head>
 
   <body>
-    <p>Todo List</p>
+    <div class="main-title">
+      <h2>Todo List</h2>
+    </div>
     <div class="todo-input-grid">
       <input placeholder="Todo name" class="js-input-name name-input" onkeydown="handleTodoInputKeydown(event)">
       <input type="date" onload="todayDate()" id="date" class="js-due-date-input due-date-input">
@@ -14,7 +16,9 @@
         Add
       </button>
     </div>
-    <div class="js-todo-list todo-grid"></div>
+    <div class="js-todo-list todo-grid">
+
+    </div>
     <script src="script.js"></script>
   </body>
 </html>
